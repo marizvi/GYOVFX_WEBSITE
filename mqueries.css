@@ -1,0 +1,36 @@
+@media screen and (max-width:900px)
+{   
+    
+    *{
+    margin: 0;
+    padding:0px 0px;
+        }
+        .section1{
+            width:50vw;
+            height: 34vh;
+        }
+        .img1{
+            height: 34vh;
+        }
+        .polaroid:hover .display{
+            bottom: 0;
+            height: 15vh;
+        }
+        .smallsection{
+            width:18vw
+        }
+    nav a{
+        padding: 8px;
+        display: flex;
+         justify-content: center;
+    }
+    nav{
+        position: relative;
+    }
+    nav a:hover{
+        border-radius: 2.5px;
+        background-color: rgb(243, 151, 65);
+    }
+    
+   
+}

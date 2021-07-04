@@ -1,0 +1,38 @@
+@media screen and (max-width:900px)
+{   
+    
+    *{
+    margin: 0;
+    padding:0px 8px;
+        }
+
+    nav a{
+        padding: 8px;
+        display: flex;
+         justify-content: center;
+    }
+    nav{
+        position: relative;
+    }
+    nav a:hover{
+        border-radius: 2.5px;
+        background-color: rgb(236, 150, 69);
+    }
+    .logbtn {
+        position: relative;
+        padding: 10px;
+        border-radius:5px ;
+        background-color: rgb(212, 129, 34);
+        margin-left: -76px;
+        margin-top:136px;
+    color: white;
+    } 
+    .logbtn1{
+        padding: 10px;
+        border-radius:5px ;
+        background-color: rgb(212, 129, 34);
+        display: inline-flex;
+        top:-126px;
+    color: white;
+    } 
+}
