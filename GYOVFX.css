@@ -6,7 +6,7 @@
     margin: 0;
         padding: 0;
     background-image: url(img2.jpg);
-    height: 25vh;
+    min-height: 25vh;
     background-size: contain;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
@@ -154,12 +154,11 @@ body{
 }
 
 .download{
-    background-color: orangered;
+    background-color: orange;
     padding:7px 10px ;
    position: relative;
    top: 30vh;
    text-decoration: none;
-   color: white;
 }
 .download:hover{
     background-color: rgb(172, 46, 0);
@@ -176,6 +175,7 @@ body{
     justify-content: center;
     text-align: center;
     text-decoration: none;
+    font-size: 2vw;
     color: white;
     margin-top: 13px;
     background-color: orangered;
